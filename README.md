@@ -4,7 +4,7 @@ This repository is a web demo for [Qux360](https://github.com/IBM/qux360), an ex
 
 ## 📦 Installation
 
-`.env` files are needed for both the backend and the frontend.
+`.env` files are needed for both the backend and the frontend. NOte that the underlying Qux360 library uses LiteLLM, i.e. you will need to specify your inference service in a way that is compatible with LiteLLM. Below is just an example for watsonx.
 
 `backend/.env`:
 ```
